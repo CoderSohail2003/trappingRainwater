@@ -3,6 +3,7 @@ public class trappingRainwater{
     public static int trappedRainwater(int height[]){
         int n = height.length;
         // I will need here 2 auxillary arrays for comparing
+        // aswell as some love....
         int leftMax[] = new int[n];
         int rightMax[] = new int[n];
         // Making of leftMax array
